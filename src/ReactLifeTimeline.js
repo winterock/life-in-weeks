@@ -156,7 +156,7 @@ class ReactLifeTimeline extends React.Component{
     let events = [];
     let color;
     let single = false;
-    if (res !== null) {
+    if (res != null) {
       ({events, color, single} = res);
     }
     let future = date_start > today;

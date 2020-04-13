@@ -1,4 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Lifetime by weeks
+
+This project was based on https://github.com/onejgordon/react-life-timeline
+(Some of the code doesn't work properly, so I copied/pasted and made some small changes)
+
+The whole idea was inspired bythis post https://waitbutwhy.com/2014/05/life-weeks.html
+Anther mind-blowing TED talk by the author https://www.youtube.com/watch?v=arj7oStGLkU
+
+
+# This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

@@ -1,0 +1,48 @@
+body {
+  background: #2E3440;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 200;
+  margin: 10px 50px;
+  padding: 0;
+  color: white;
+}
+
+h1, h2 {
+  color: white;
+  font-weight: 100;
+}
+
+.footer {
+  margin-top: 50px;
+  font-size: 0.8em;
+}
+
+.LifeTimeline {
+  display: block;
+}
+.LifeTimeline > .week {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 2px;
+  padding: 0;
+  opacity: 0.5;
+  background: #3B4252;
+  transition: .4s linear opacity;
+  position: relative;
+}
+.LifeTimeline > .week.future {
+  opacity: 0.2;
+}
+.LifeTimeline > .week > .singleEvents {
+  left: 4px;
+  top: 4px;
+  border-radius: 3.5px;
+  width: 7px;
+  height: 7px;
+  background: #4C566A;
+  position: absolute;
+}
+.LifeTimeline > .week:hover {
+  opacity: 1.0;
+}
